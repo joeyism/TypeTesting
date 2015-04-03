@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  <div>Sentence to type:</div>
+  <div> <span style="font-size: 40px" ng-repeat="letter in realArray track by $index" id="{{'letter_'+$index}}">{{letter}}</span></div>
+  
+  <input data-ng-keydown="pressedKey($event)" data-ng-keypress="letterTyped($event)" data-ng-change="onChange()" ng-model="word">
+  <div>errors: {{count}}</div>
+  <div>letter no: {{letterCount}}</div>
+  <div ng-if="showTotal">
+  <div ng-repeat="eachTime in totalElapsed track by $index">
+    {{$index+1}}. {{eachTime}} ms with {{totalError[$index]}} errors
+  <div>
+  </div>
+</div>

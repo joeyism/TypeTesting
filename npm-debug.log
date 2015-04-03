@@ -1,0 +1,507 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'imagemin',
+1 verbose cli   'imagemin-gifsicle' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json website@0.0.0 No description
+5 warn package.json website@0.0.0 No repository field.
+6 warn package.json website@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'imagemin', null ]
+9 verbose cache add name=undefined spec="imagemin" args=["imagemin",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'imagemin',
+10 verbose parsed url   path: 'imagemin',
+10 verbose parsed url   href: 'imagemin' }
+11 verbose cache add [ 'imagemin-gifsicle', null ]
+12 verbose cache add name=undefined spec="imagemin-gifsicle" args=["imagemin-gifsicle",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'imagemin-gifsicle',
+13 verbose parsed url   path: 'imagemin-gifsicle',
+13 verbose parsed url   href: 'imagemin-gifsicle' }
+14 silly lockFile 2e6a8e89-imagemin imagemin
+15 verbose lock imagemin /home/ubuntu/.npm/2e6a8e89-imagemin.lock
+16 silly lockFile d62c03ec-imagemin-gifsicle imagemin-gifsicle
+17 verbose lock imagemin-gifsicle /home/ubuntu/.npm/d62c03ec-imagemin-gifsicle.lock
+18 silly lockFile 2e6a8e89-imagemin imagemin
+19 silly lockFile 2e6a8e89-imagemin imagemin
+20 silly lockFile d62c03ec-imagemin-gifsicle imagemin-gifsicle
+21 silly lockFile d62c03ec-imagemin-gifsicle imagemin-gifsicle
+22 verbose addNamed [ 'imagemin', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile f181a5ff-imagemin imagemin@
+25 verbose lock imagemin@ /home/ubuntu/.npm/f181a5ff-imagemin.lock
+26 verbose addNamed [ 'imagemin-gifsicle', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile dcc3b55f-imagemin-gifsicle imagemin-gifsicle@
+29 verbose lock imagemin-gifsicle@ /home/ubuntu/.npm/dcc3b55f-imagemin-gifsicle.lock
+30 silly addNameRange { name: 'imagemin', range: '*', hasData: false }
+31 silly addNameRange { name: 'imagemin-gifsicle', range: '*', hasData: false }
+32 verbose url raw imagemin
+33 verbose url resolving [ 'https://registry.npmjs.org/', './imagemin' ]
+34 verbose url resolved https://registry.npmjs.org/imagemin
+35 info trying registry request attempt 1 at 12:58:29
+36 http GET https://registry.npmjs.org/imagemin
+37 verbose url raw imagemin-gifsicle
+38 verbose url resolving [ 'https://registry.npmjs.org/', './imagemin-gifsicle' ]
+39 verbose url resolved https://registry.npmjs.org/imagemin-gifsicle
+40 info trying registry request attempt 1 at 12:58:29
+41 http GET https://registry.npmjs.org/imagemin-gifsicle
+42 http 200 https://registry.npmjs.org/imagemin-gifsicle
+43 silly registry.get cb [ 200,
+43 silly registry.get   { date: 'Tue, 10 Mar 2015 12:58:02 GMT',
+43 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+43 silly registry.get     etag: '"9V5YBYG1TV4W1K0QN5127ST31"',
+43 silly registry.get     'content-type': 'application/json',
+43 silly registry.get     'cache-control': 'max-age=60',
+43 silly registry.get     'content-length': '13953',
+43 silly registry.get     'accept-ranges': 'bytes',
+43 silly registry.get     via: '1.1 varnish',
+43 silly registry.get     age: '0',
+43 silly registry.get     'x-served-by': 'cache-sjc3123-SJC',
+43 silly registry.get     'x-cache': 'HIT',
+43 silly registry.get     'x-cache-hits': '1',
+43 silly registry.get     'x-timer': 'S1425992282.084755,VS0,VE31',
+43 silly registry.get     vary: 'Accept',
+43 silly registry.get     'keep-alive': 'timeout=10, max=50',
+43 silly registry.get     connection: 'Keep-Alive' } ]
+44 silly addNameRange number 2 { name: 'imagemin-gifsicle', range: '*', hasData: true }
+45 silly addNameRange versions [ 'imagemin-gifsicle',
+45 silly addNameRange   [ '0.1.0',
+45 silly addNameRange     '0.1.1',
+45 silly addNameRange     '1.0.0',
+45 silly addNameRange     '2.0.0',
+45 silly addNameRange     '2.0.1',
+45 silly addNameRange     '3.0.0',
+45 silly addNameRange     '3.1.0',
+45 silly addNameRange     '4.0.0',
+45 silly addNameRange     '4.1.0' ] ]
+46 verbose addNamed [ 'imagemin-gifsicle', '4.1.0' ]
+47 verbose addNamed [ '4.1.0', '4.1.0' ]
+48 silly lockFile 90040437-imagemin-gifsicle-4-1-0 imagemin-gifsicle@4.1.0
+49 verbose lock imagemin-gifsicle@4.1.0 /home/ubuntu/.npm/90040437-imagemin-gifsicle-4-1-0.lock
+50 silly lockFile 9dacd110-icle-imagemin-gifsicle-4-1-0-tgz https://registry.npmjs.org/imagemin-gifsicle/-/imagemin-gifsicle-4.1.0.tgz
+51 verbose lock https://registry.npmjs.org/imagemin-gifsicle/-/imagemin-gifsicle-4.1.0.tgz /home/ubuntu/.npm/9dacd110-icle-imagemin-gifsicle-4-1-0-tgz.lock
+52 verbose addRemoteTarball [ 'https://registry.npmjs.org/imagemin-gifsicle/-/imagemin-gifsicle-4.1.0.tgz',
+52 verbose addRemoteTarball   'c9eb9fbdce68ada1019f04e1e44633ae626263d3' ]
+53 info retry fetch attempt 1 at 12:58:29
+54 verbose fetch to= /home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/tmp.tgz
+55 http GET https://registry.npmjs.org/imagemin-gifsicle/-/imagemin-gifsicle-4.1.0.tgz
+56 http 200 https://registry.npmjs.org/imagemin
+57 silly registry.get cb [ 200,
+57 silly registry.get   { date: 'Tue, 10 Mar 2015 12:58:02 GMT',
+57 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+57 silly registry.get     etag: '"4TSEJI5EMQ3Y8A9KZ1F7PM4YO"',
+57 silly registry.get     'content-type': 'application/json',
+57 silly registry.get     'cache-control': 'max-age=60',
+57 silly registry.get     'content-length': '43621',
+57 silly registry.get     'accept-ranges': 'bytes',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     age: '0',
+57 silly registry.get     'x-served-by': 'cache-sjc3120-SJC',
+57 silly registry.get     'x-cache': 'HIT',
+57 silly registry.get     'x-cache-hits': '1',
+57 silly registry.get     'x-timer': 'S1425992282.082282,VS0,VE30',
+57 silly registry.get     vary: 'Accept',
+57 silly registry.get     'keep-alive': 'timeout=10, max=50',
+57 silly registry.get     connection: 'Keep-Alive' } ]
+58 silly addNameRange number 2 { name: 'imagemin', range: '*', hasData: true }
+59 silly addNameRange versions [ 'imagemin',
+59 silly addNameRange   [ '0.1.0',
+59 silly addNameRange     '0.1.1',
+59 silly addNameRange     '0.1.2',
+59 silly addNameRange     '0.1.3',
+59 silly addNameRange     '0.4.5',
+59 silly addNameRange     '0.4.6',
+59 silly addNameRange     '0.4.7',
+59 silly addNameRange     '0.4.8',
+59 silly addNameRange     '0.4.9',
+59 silly addNameRange     '1.0.0',
+59 silly addNameRange     '1.0.1',
+59 silly addNameRange     '1.0.2',
+59 silly addNameRange     '1.0.3',
+59 silly addNameRange     '1.0.4',
+59 silly addNameRange     '0.2.4',
+59 silly addNameRange     '1.0.5',
+59 silly addNameRange     '2.0.0',
+59 silly addNameRange     '2.0.1',
+59 silly addNameRange     '2.1.0',
+59 silly addNameRange     '2.1.1',
+59 silly addNameRange     '2.1.2',
+59 silly addNameRange     '2.2.0',
+59 silly addNameRange     '2.2.1',
+59 silly addNameRange     '3.0.0',
+59 silly addNameRange     '3.1.0' ] ]
+60 verbose addNamed [ 'imagemin', '3.1.0' ]
+61 verbose addNamed [ '3.1.0', '3.1.0' ]
+62 silly lockFile 1ee0d88a-imagemin-3-1-0 imagemin@3.1.0
+63 verbose lock imagemin@3.1.0 /home/ubuntu/.npm/1ee0d88a-imagemin-3-1-0.lock
+64 silly lockFile aeb90e37--org-imagemin-imagemin-3-1-0-tgz https://registry.npmjs.org/imagemin/-/imagemin-3.1.0.tgz
+65 verbose lock https://registry.npmjs.org/imagemin/-/imagemin-3.1.0.tgz /home/ubuntu/.npm/aeb90e37--org-imagemin-imagemin-3-1-0-tgz.lock
+66 verbose addRemoteTarball [ 'https://registry.npmjs.org/imagemin/-/imagemin-3.1.0.tgz',
+66 verbose addRemoteTarball   '6f3f094612e48be9139939dbd1968b116749e3d5' ]
+67 info retry fetch attempt 1 at 12:58:29
+68 verbose fetch to= /home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/tmp.tgz
+69 http GET https://registry.npmjs.org/imagemin/-/imagemin-3.1.0.tgz
+70 http 200 https://registry.npmjs.org/imagemin/-/imagemin-3.1.0.tgz
+71 verbose tar unpack /home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/tmp.tgz
+72 silly lockFile 55c7a6f0-09993-0-0395801558624953-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/package
+73 verbose lock tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/package /home/ubuntu/.npm/55c7a6f0-09993-0-0395801558624953-package.lock
+74 silly lockFile 772c44d6-09993-0-0395801558624953-tmp-tgz tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/tmp.tgz
+75 verbose lock tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/tmp.tgz /home/ubuntu/.npm/772c44d6-09993-0-0395801558624953-tmp-tgz.lock
+76 silly gunzTarPerm modes [ '755', '644' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+79 silly gunzTarPerm extractEntry README.md
+80 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+81 silly gunzTarPerm extractEntry cli.js
+82 silly gunzTarPerm modified mode [ 'cli.js', 509, 493 ]
+83 silly gunzTarPerm extractEntry index.js
+84 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+85 silly gunzTarPerm extractEntry LICENSE.md
+86 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+87 silly lockFile 55c7a6f0-09993-0-0395801558624953-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/package
+88 silly lockFile 55c7a6f0-09993-0-0395801558624953-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/package
+89 silly lockFile 772c44d6-09993-0-0395801558624953-tmp-tgz tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/tmp.tgz
+90 silly lockFile 772c44d6-09993-0-0395801558624953-tmp-tgz tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/tmp.tgz
+91 verbose tar pack [ '/home/ubuntu/.npm/imagemin/3.1.0/package.tgz',
+91 verbose tar pack   '/home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/package' ]
+92 verbose tarball /home/ubuntu/.npm/imagemin/3.1.0/package.tgz
+93 verbose folder /home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/package
+94 silly lockFile 55c7a6f0-09993-0-0395801558624953-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/package
+95 verbose lock tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/package /home/ubuntu/.npm/55c7a6f0-09993-0-0395801558624953-package.lock
+96 silly lockFile 600218b0-u-npm-imagemin-3-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin/3.1.0/package.tgz
+97 verbose lock tar:///home/ubuntu/.npm/imagemin/3.1.0/package.tgz /home/ubuntu/.npm/600218b0-u-npm-imagemin-3-1-0-package-tgz.lock
+98 silly lockFile 55c7a6f0-09993-0-0395801558624953-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/package
+99 silly lockFile 55c7a6f0-09993-0-0395801558624953-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309993-0.0395801558624953/package
+100 silly lockFile 600218b0-u-npm-imagemin-3-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin/3.1.0/package.tgz
+101 silly lockFile 600218b0-u-npm-imagemin-3-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin/3.1.0/package.tgz
+102 silly lockFile ef91c9ce-buntu-npm-imagemin-3-1-0-package /home/ubuntu/.npm/imagemin/3.1.0/package
+103 verbose lock /home/ubuntu/.npm/imagemin/3.1.0/package /home/ubuntu/.npm/ef91c9ce-buntu-npm-imagemin-3-1-0-package.lock
+104 silly lockFile ef91c9ce-buntu-npm-imagemin-3-1-0-package /home/ubuntu/.npm/imagemin/3.1.0/package
+105 silly lockFile ef91c9ce-buntu-npm-imagemin-3-1-0-package /home/ubuntu/.npm/imagemin/3.1.0/package
+106 verbose tar unpack /home/ubuntu/.npm/imagemin/3.1.0/package.tgz
+107 silly lockFile d3c33e7f-buntu-npm-imagemin-3-1-0-package tar:///home/ubuntu/.npm/imagemin/3.1.0/package
+108 verbose lock tar:///home/ubuntu/.npm/imagemin/3.1.0/package /home/ubuntu/.npm/d3c33e7f-buntu-npm-imagemin-3-1-0-package.lock
+109 silly lockFile 600218b0-u-npm-imagemin-3-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin/3.1.0/package.tgz
+110 verbose lock tar:///home/ubuntu/.npm/imagemin/3.1.0/package.tgz /home/ubuntu/.npm/600218b0-u-npm-imagemin-3-1-0-package-tgz.lock
+111 silly gunzTarPerm modes [ '755', '644' ]
+112 silly gunzTarPerm extractEntry package.json
+113 silly gunzTarPerm extractEntry README.md
+114 silly gunzTarPerm extractEntry cli.js
+115 silly gunzTarPerm extractEntry index.js
+116 silly lockFile d3c33e7f-buntu-npm-imagemin-3-1-0-package tar:///home/ubuntu/.npm/imagemin/3.1.0/package
+117 silly lockFile d3c33e7f-buntu-npm-imagemin-3-1-0-package tar:///home/ubuntu/.npm/imagemin/3.1.0/package
+118 silly lockFile 600218b0-u-npm-imagemin-3-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin/3.1.0/package.tgz
+119 silly lockFile 600218b0-u-npm-imagemin-3-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin/3.1.0/package.tgz
+120 verbose chmod /home/ubuntu/.npm/imagemin/3.1.0/package.tgz 644
+121 verbose chown /home/ubuntu/.npm/imagemin/3.1.0/package.tgz [ 1000, 1000 ]
+122 silly lockFile aeb90e37--org-imagemin-imagemin-3-1-0-tgz https://registry.npmjs.org/imagemin/-/imagemin-3.1.0.tgz
+123 silly lockFile aeb90e37--org-imagemin-imagemin-3-1-0-tgz https://registry.npmjs.org/imagemin/-/imagemin-3.1.0.tgz
+124 silly lockFile 1ee0d88a-imagemin-3-1-0 imagemin@3.1.0
+125 silly lockFile 1ee0d88a-imagemin-3-1-0 imagemin@3.1.0
+126 silly lockFile f181a5ff-imagemin imagemin@
+127 silly lockFile f181a5ff-imagemin imagemin@
+128 http 200 https://registry.npmjs.org/imagemin-gifsicle/-/imagemin-gifsicle-4.1.0.tgz
+129 verbose tar unpack /home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/tmp.tgz
+130 silly lockFile 2114a807-9973-0-21173762809485197-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/package
+131 verbose lock tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/package /home/ubuntu/.npm/2114a807-9973-0-21173762809485197-package.lock
+132 silly lockFile 9163e096-9973-0-21173762809485197-tmp-tgz tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/tmp.tgz
+133 verbose lock tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/tmp.tgz /home/ubuntu/.npm/9163e096-9973-0-21173762809485197-tmp-tgz.lock
+134 silly gunzTarPerm modes [ '755', '644' ]
+135 silly gunzTarPerm extractEntry package.json
+136 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+137 silly gunzTarPerm extractEntry README.md
+138 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+139 silly gunzTarPerm extractEntry index.js
+140 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+141 silly lockFile 2114a807-9973-0-21173762809485197-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/package
+142 silly lockFile 2114a807-9973-0-21173762809485197-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/package
+143 silly lockFile 9163e096-9973-0-21173762809485197-tmp-tgz tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/tmp.tgz
+144 silly lockFile 9163e096-9973-0-21173762809485197-tmp-tgz tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/tmp.tgz
+145 verbose tar pack [ '/home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz',
+145 verbose tar pack   '/home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/package' ]
+146 verbose tarball /home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+147 verbose folder /home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/package
+148 silly lockFile 2114a807-9973-0-21173762809485197-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/package
+149 verbose lock tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/package /home/ubuntu/.npm/2114a807-9973-0-21173762809485197-package.lock
+150 silly lockFile 04dc28e4-gemin-gifsicle-4-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+151 verbose lock tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz /home/ubuntu/.npm/04dc28e4-gemin-gifsicle-4-1-0-package-tgz.lock
+152 silly lockFile 2114a807-9973-0-21173762809485197-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/package
+153 silly lockFile 2114a807-9973-0-21173762809485197-package tar:///home/ubuntu/tmp/npm-28721-0kXmWWdG/1425992309973-0.21173762809485197/package
+154 silly lockFile 04dc28e4-gemin-gifsicle-4-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+155 silly lockFile 04dc28e4-gemin-gifsicle-4-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+156 silly lockFile 7d48166d--imagemin-gifsicle-4-1-0-package /home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package
+157 verbose lock /home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package /home/ubuntu/.npm/7d48166d--imagemin-gifsicle-4-1-0-package.lock
+158 silly lockFile 7d48166d--imagemin-gifsicle-4-1-0-package /home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package
+159 silly lockFile 7d48166d--imagemin-gifsicle-4-1-0-package /home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package
+160 verbose tar unpack /home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+161 silly lockFile 72fb59e1--imagemin-gifsicle-4-1-0-package tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package
+162 verbose lock tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package /home/ubuntu/.npm/72fb59e1--imagemin-gifsicle-4-1-0-package.lock
+163 silly lockFile 04dc28e4-gemin-gifsicle-4-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+164 verbose lock tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz /home/ubuntu/.npm/04dc28e4-gemin-gifsicle-4-1-0-package-tgz.lock
+165 silly gunzTarPerm modes [ '755', '644' ]
+166 silly gunzTarPerm extractEntry package.json
+167 silly gunzTarPerm extractEntry README.md
+168 silly gunzTarPerm extractEntry index.js
+169 silly lockFile 72fb59e1--imagemin-gifsicle-4-1-0-package tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package
+170 silly lockFile 72fb59e1--imagemin-gifsicle-4-1-0-package tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package
+171 silly lockFile 04dc28e4-gemin-gifsicle-4-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+172 silly lockFile 04dc28e4-gemin-gifsicle-4-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+173 verbose chmod /home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz 644
+174 verbose chown /home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz [ 1000, 1000 ]
+175 silly lockFile 9dacd110-icle-imagemin-gifsicle-4-1-0-tgz https://registry.npmjs.org/imagemin-gifsicle/-/imagemin-gifsicle-4.1.0.tgz
+176 silly lockFile 9dacd110-icle-imagemin-gifsicle-4-1-0-tgz https://registry.npmjs.org/imagemin-gifsicle/-/imagemin-gifsicle-4.1.0.tgz
+177 silly lockFile 90040437-imagemin-gifsicle-4-1-0 imagemin-gifsicle@4.1.0
+178 silly lockFile 90040437-imagemin-gifsicle-4-1-0 imagemin-gifsicle@4.1.0
+179 silly lockFile dcc3b55f-imagemin-gifsicle imagemin-gifsicle@
+180 silly lockFile dcc3b55f-imagemin-gifsicle imagemin-gifsicle@
+181 silly resolved [ { name: 'imagemin',
+181 silly resolved     version: '3.1.0',
+181 silly resolved     description: 'Minify images',
+181 silly resolved     license: 'MIT',
+181 silly resolved     repository: { type: 'git', url: 'git://github.com/imagemin/imagemin' },
+181 silly resolved     author:
+181 silly resolved      { name: 'Kevin Mårtensson',
+181 silly resolved        email: 'kevinmartensson@gmail.com',
+181 silly resolved        url: 'https://github.com/kevva' },
+181 silly resolved     engines: { node: '>=0.10.0', npm: '>=2.1.5' },
+181 silly resolved     bin: { imagemin: 'cli.js' },
+181 silly resolved     scripts: { test: 'node test/test.js' },
+181 silly resolved     files: [ 'cli.js', 'index.js' ],
+181 silly resolved     keywords: [ 'compress', 'gif', 'image', 'jpeg', 'minify', 'png', 'svg' ],
+181 silly resolved     dependencies:
+181 silly resolved      { 'concat-stream': '^1.4.6',
+181 silly resolved        'get-stdin': '^3.0.0',
+181 silly resolved        meow: '^2.0.0',
+181 silly resolved        optional: '^0.1.0',
+181 silly resolved        'stream-combiner': '^0.2.1',
+181 silly resolved        through2: '^0.6.1',
+181 silly resolved        vinyl: '^0.4.3',
+181 silly resolved        'vinyl-fs': '^0.3.7',
+181 silly resolved        'imagemin-gifsicle': '^4.0.0',
+181 silly resolved        'imagemin-jpegtran': '^4.0.0',
+181 silly resolved        'imagemin-optipng': '^4.0.0',
+181 silly resolved        'imagemin-pngquant': '^4.0.0',
+181 silly resolved        'imagemin-svgo': '^4.0.0' },
+181 silly resolved     devDependencies: { ava: '^0.0.4' },
+181 silly resolved     optionalDependencies:
+181 silly resolved      { 'imagemin-gifsicle': '^4.0.0',
+181 silly resolved        'imagemin-jpegtran': '^4.0.0',
+181 silly resolved        'imagemin-optipng': '^4.0.0',
+181 silly resolved        'imagemin-pngquant': '^4.0.0',
+181 silly resolved        'imagemin-svgo': '^4.0.0' },
+181 silly resolved     readme: '# imagemin [![Build Status](http://img.shields.io/travis/imagemin/imagemin.svg?style=flat)](https://travis-ci.org/imagemin/imagemin) [![Build status](https://ci.appveyor.com/api/projects/status/wlnem7wef63k4n1t)](https://ci.appveyor.com/project/ShinnosukeWatanabe/imagemin)\n\n> Minify images seamlessly\n\n\n## Install\n\n```sh\n$ npm install --save imagemin\n```\n\n\n## Usage\n\n```js\nvar Imagemin = require(\'imagemin\');\n\nvar imagemin = new Imagemin()\n\t.src(\'images/*.{gif,jpg,png,svg}\')\n\t.dest(\'build/images\')\n\t.use(Imagemin.jpegtran({ progressive: true }));\n\nimagemin.run(function (err, files) {\n\tif (err) {\n\t\tthrow err;\n\t}\n\t\n\tconsole.log(files[0]);\n\t// => { contents: <Buffer 89 50 4e ...> }\n});\n```\n\nYou can use [gulp-rename](https://github.com/hparra/gulp-rename) to rename your files:\n\n```js\nvar Imagemin = require(\'imagemin\');\nvar rename = require(\'gulp-rename\');\n\nvar imagemin = new Imagemin()\n\t.src(\'images/foo.png\')\n\t.use(rename(\'bar.png\'));\n```\n\n\n## API\n\n### new Imagemin()\n\nCreates a new `Imagemin` instance.\n\n### .src(file)\n\nType: `Array|Buffer|String`\n\nSet the files to be optimized. Takes a buffer, glob string or an array of glob strings \nas argument.\n\n### .dest(folder)\n\nType: `String`\n\nSet the destination folder to where your files will be written. If you don\'t set \nany destination no files will be written.\n\n### .use(plugin)\n\nType: `Function`\n\nAdd a `plugin` to the middleware stack.\n\n### .run(cb)\n\nType: `Function`\n\nOptimize your files with the given settings.\n\n#### cb(err, files, stream)\n\nThe callback will return an array of vinyl files in `files` and a Readable/Writable \nstream in `stream`.\n\n\n## Plugins\n\nThe following [plugins](https://www.npmjs.org/browse/keyword/imageminplugin) are bundled with imagemin:\n\n* [gifsicle](#gifsicle) — Compress GIF images.\n* [jpegtran](#jpegtran) — Compress JPG images.\n* [optipng](#optipng) — Lossless compression of PNG images.\n* [pngquant](#pngquant) — Lossy compression of PNG images.\n* [svgo](#svgo) — Compress SVG images.\n\n### .gifsicle()\n\nCompress GIF images.\n\n```js\nvar Imagemin = require(\'imagemin\');\n\nvar imagemin = new Imagemin()\n\t.use(Imagemin.gifsicle({ interlaced: true }));\n```\n\n### .jpegtran()\n\nCompress JPG images.\n\n```js\nvar Imagemin = require(\'imagemin\');\n\nvar imagemin = new Imagemin()\n\t.use(Imagemin.jpegtran({ progressive: true }));\n```\n\n### .optipng()\n\nLossless compression of PNG images.\n\n```js\nvar Imagemin = require(\'imagemin\');\n\nvar imagemin = new Imagemin()\n\t.use(Imagemin.optipng({ optimizationLevel: 3 }));\n```\n\n### .pngquant()\n\nLossy compression of PNG images.\n\n```js\nvar Imagemin = require(\'imagemin\');\n\nvar imagemin = new Imagemin()\n\t.use(Imagemin.pngquant());\n```\n\n### .svgo()\n\nCompress SVG images.\n\n```js\nvar Imagemin = require(\'imagemin\');\n\nvar imagemin = new Imagemin()\n\t.use(Imagemin.svgo());\n```\n\n\n## CLI\n\n```bash\n$ npm install --global imagemin\n```\n\n```sh\n$ imagemin --help\n\nUsage\n  imagemin <file> <directory>\n  imagemin <file> > <output>\n  cat <file> | imagemin > <output>\n\nExample\n  imagemin images/* build\n  imagemin foo.png > foo-optimized.png\n  cat foo.png | imagemin > foo-optimized.png\n\nOptions\n  -i, --interlaced                    Interlace gif for progressive rendering\n  -o, --optimizationLevel <number>    Optimization level between 0 and 7\n  -p, --progressive                   Lossless conversion to progressive\n```\n\n\n## Related\n\n- [imagemin-app](https://github.com/imagemin/imagemin-app)\n- [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin)\n- [grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin)\n\n\n## License\n\nMIT © [imagemin](https://github.com/imagemin)\n',
+181 silly resolved     readmeFilename: 'README.md',
+181 silly resolved     bugs: { url: 'https://github.com/imagemin/imagemin/issues' },
+181 silly resolved     _id: 'imagemin@3.1.0',
+181 silly resolved     dist: { shasum: 'b674fb22b61da177cc4b4135b671540fc3093519' },
+181 silly resolved     _from: 'imagemin@',
+181 silly resolved     _resolved: 'https://registry.npmjs.org/imagemin/-/imagemin-3.1.0.tgz' },
+181 silly resolved   { name: 'imagemin-gifsicle',
+181 silly resolved     version: '4.1.0',
+181 silly resolved     description: 'gifsicle imagemin plugin',
+181 silly resolved     license: 'MIT',
+181 silly resolved     repository:
+181 silly resolved      { type: 'git',
+181 silly resolved        url: 'git://github.com/imagemin/imagemin-gifsicle' },
+181 silly resolved     author:
+181 silly resolved      { name: 'Kevin Mårtensson',
+181 silly resolved        email: 'kevinmartensson@gmail.com',
+181 silly resolved        url: 'https://github.com/kevva' },
+181 silly resolved     engines: { node: '>=0.10.0' },
+181 silly resolved     scripts: { test: 'node test/test.js' },
+181 silly resolved     files: [ 'index.js' ],
+181 silly resolved     keywords:
+181 silly resolved      [ 'compress',
+181 silly resolved        'gif',
+181 silly resolved        'gifsicle',
+181 silly resolved        'gulpplugin',
+181 silly resolved        'image',
+181 silly resolved        'imageminplugin',
+181 silly resolved        'img',
+181 silly resolved        'minify',
+181 silly resolved        'optimize' ],
+181 silly resolved     dependencies: { gifsicle: '^2.0.0', 'is-gif': '^1.0.0', through2: '^0.6.1' },
+181 silly resolved     devDependencies: { ava: '^0.0.4', 'vinyl-file': '^1.1.0' },
+181 silly resolved     readme: '# imagemin-gifsicle [![Build Status](http://img.shields.io/travis/imagemin/imagemin-gifsicle.svg?style=flat)](https://travis-ci.org/imagemin/imagemin-gifsicle) [![Build status](https://ci.appveyor.com/api/projects/status/51vfu1ntxwx7t949?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/imagemin-gifsicle)\n\n> gifsicle imagemin plugin\n\n\n## Install\n\n```sh\n$ npm install --save imagemin-gifsicle\n```\n\n\n## Usage\n\n```js\nvar Imagemin = require(\'imagemin\');\nvar gifsicle = require(\'imagemin-gifsicle\');\n\nvar imagemin = new Imagemin()\n\t.src(\'images/*.gif\')\n\t.dest(\'build/images\')\n\t.use(gifsicle({ interlaced: true }));\n\nimagemin.run(function (err, files) {\n\tif (err) {\n\t\tthrow err;\n\t}\n\n\tconsole.log(\'Files optimized successfully!\'); \n});\n```\n\nYou can also use this plugin with [gulp](http://gulpjs.com):\n\n```js\nvar gulp = require(\'gulp\');\nvar gifsicle = require(\'imagemin-gifsicle\');\n\ngulp.task(\'default\', function () {\n\treturn gulp.src(\'images/*.gif\')\n\t\t.pipe(gifsicle({ interlaced: true })())\n\t\t.pipe(gulp.dest(\'build/images\'));\n});\n```\n\n\n## Options\n\n### interlaced\n\nType: `Boolean`  \nDefault: `false`\n\nInterlace gif for progressive rendering.\n\n\n## License\n\nMIT © [imagemin](https://github.com/imagemin)\n',
+181 silly resolved     readmeFilename: 'README.md',
+181 silly resolved     bugs: { url: 'https://github.com/imagemin/imagemin-gifsicle/issues' },
+181 silly resolved     _id: 'imagemin-gifsicle@4.1.0',
+181 silly resolved     dist: { shasum: '99b4407fefce96df790bb83dea3b521897f84181' },
+181 silly resolved     _from: 'imagemin-gifsicle@',
+181 silly resolved     _resolved: 'https://registry.npmjs.org/imagemin-gifsicle/-/imagemin-gifsicle-4.1.0.tgz' } ]
+182 info install imagemin@3.1.0 into /home/ubuntu/csc428/test2
+183 info install imagemin-gifsicle@4.1.0 into /home/ubuntu/csc428/test2
+184 info installOne imagemin@3.1.0
+185 warn engine imagemin@3.1.0: wanted: {"node":">=0.10.0","npm":">=2.1.5"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+186 info installOne imagemin-gifsicle@4.1.0
+187 info /home/ubuntu/csc428/test2/node_modules/imagemin-gifsicle unbuild
+188 info /home/ubuntu/csc428/test2/node_modules/imagemin unbuild
+189 info preuninstall imagemin@3.1.0
+190 info uninstall imagemin@3.1.0
+191 verbose tar unpack /home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+192 silly lockFile 28e25385-2-node-modules-imagemin-gifsicle tar:///home/ubuntu/csc428/test2/node_modules/imagemin-gifsicle
+193 verbose lock tar:///home/ubuntu/csc428/test2/node_modules/imagemin-gifsicle /home/ubuntu/.npm/28e25385-2-node-modules-imagemin-gifsicle.lock
+194 silly lockFile 04dc28e4-gemin-gifsicle-4-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+195 verbose lock tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz /home/ubuntu/.npm/04dc28e4-gemin-gifsicle-4-1-0-package-tgz.lock
+196 verbose true,/home/ubuntu/csc428/test2/node_modules,/home/ubuntu/csc428/test2/node_modules unbuild imagemin@3.1.0
+197 verbose /home/ubuntu/csc428/test2/node_modules/.bin,[object Object] binRoot
+198 info /home/ubuntu/csc428/test2/node_modules/imagemin unbuild
+199 silly gunzTarPerm modes [ '755', '644' ]
+200 silly gunzTarPerm extractEntry package.json
+201 info preuninstall imagemin@3.1.0
+202 silly gunzTarPerm extractEntry README.md
+203 silly gunzTarPerm extractEntry index.js
+204 info uninstall imagemin@3.1.0
+205 verbose true,/home/ubuntu/csc428/test2/node_modules,/home/ubuntu/csc428/test2/node_modules unbuild imagemin@3.1.0
+206 verbose /home/ubuntu/csc428/test2/node_modules/.bin,[object Object] binRoot
+207 info postuninstall imagemin@3.1.0
+208 silly lockFile 28e25385-2-node-modules-imagemin-gifsicle tar:///home/ubuntu/csc428/test2/node_modules/imagemin-gifsicle
+209 silly lockFile 28e25385-2-node-modules-imagemin-gifsicle tar:///home/ubuntu/csc428/test2/node_modules/imagemin-gifsicle
+210 silly lockFile 04dc28e4-gemin-gifsicle-4-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+211 silly lockFile 04dc28e4-gemin-gifsicle-4-1-0-package-tgz tar:///home/ubuntu/.npm/imagemin-gifsicle/4.1.0/package.tgz
+212 info preinstall imagemin-gifsicle@4.1.0
+213 verbose readDependencies using package.json deps
+214 verbose readDependencies using package.json deps
+215 verbose cache add [ 'gifsicle@^2.0.0', null ]
+216 verbose cache add name=undefined spec="gifsicle@^2.0.0" args=["gifsicle@^2.0.0",null]
+217 verbose parsed url { protocol: null,
+217 verbose parsed url   slashes: null,
+217 verbose parsed url   auth: null,
+217 verbose parsed url   host: null,
+217 verbose parsed url   port: null,
+217 verbose parsed url   hostname: null,
+217 verbose parsed url   hash: null,
+217 verbose parsed url   search: null,
+217 verbose parsed url   query: null,
+217 verbose parsed url   pathname: 'gifsicle@^2.0.0',
+217 verbose parsed url   path: 'gifsicle@^2.0.0',
+217 verbose parsed url   href: 'gifsicle@^2.0.0' }
+218 verbose cache add name="gifsicle" spec="^2.0.0" args=["gifsicle","^2.0.0"]
+219 verbose parsed url { protocol: null,
+219 verbose parsed url   slashes: null,
+219 verbose parsed url   auth: null,
+219 verbose parsed url   host: null,
+219 verbose parsed url   port: null,
+219 verbose parsed url   hostname: null,
+219 verbose parsed url   hash: null,
+219 verbose parsed url   search: null,
+219 verbose parsed url   query: null,
+219 verbose parsed url   pathname: '^2.0.0',
+219 verbose parsed url   path: '^2.0.0',
+219 verbose parsed url   href: '^2.0.0' }
+220 verbose addNamed [ 'gifsicle', '^2.0.0' ]
+221 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+222 silly lockFile b1097ed2-gifsicle-2-0-0 gifsicle@^2.0.0
+223 verbose lock gifsicle@^2.0.0 /home/ubuntu/.npm/b1097ed2-gifsicle-2-0-0.lock
+224 verbose cache add [ 'is-gif@^1.0.0', null ]
+225 verbose cache add name=undefined spec="is-gif@^1.0.0" args=["is-gif@^1.0.0",null]
+226 verbose parsed url { protocol: null,
+226 verbose parsed url   slashes: null,
+226 verbose parsed url   auth: null,
+226 verbose parsed url   host: null,
+226 verbose parsed url   port: null,
+226 verbose parsed url   hostname: null,
+226 verbose parsed url   hash: null,
+226 verbose parsed url   search: null,
+226 verbose parsed url   query: null,
+226 verbose parsed url   pathname: 'is-gif@^1.0.0',
+226 verbose parsed url   path: 'is-gif@^1.0.0',
+226 verbose parsed url   href: 'is-gif@^1.0.0' }
+227 verbose cache add name="is-gif" spec="^1.0.0" args=["is-gif","^1.0.0"]
+228 verbose parsed url { protocol: null,
+228 verbose parsed url   slashes: null,
+228 verbose parsed url   auth: null,
+228 verbose parsed url   host: null,
+228 verbose parsed url   port: null,
+228 verbose parsed url   hostname: null,
+228 verbose parsed url   hash: null,
+228 verbose parsed url   search: null,
+228 verbose parsed url   query: null,
+228 verbose parsed url   pathname: '^1.0.0',
+228 verbose parsed url   path: '^1.0.0',
+228 verbose parsed url   href: '^1.0.0' }
+229 verbose addNamed [ 'is-gif', '^1.0.0' ]
+230 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+231 silly lockFile cd2712ee-is-gif-1-0-0 is-gif@^1.0.0
+232 verbose lock is-gif@^1.0.0 /home/ubuntu/.npm/cd2712ee-is-gif-1-0-0.lock
+233 verbose cache add [ 'through2@^0.6.1', null ]
+234 verbose cache add name=undefined spec="through2@^0.6.1" args=["through2@^0.6.1",null]
+235 verbose parsed url { protocol: null,
+235 verbose parsed url   slashes: null,
+235 verbose parsed url   auth: null,
+235 verbose parsed url   host: null,
+235 verbose parsed url   port: null,
+235 verbose parsed url   hostname: null,
+235 verbose parsed url   hash: null,
+235 verbose parsed url   search: null,
+235 verbose parsed url   query: null,
+235 verbose parsed url   pathname: 'through2@^0.6.1',
+235 verbose parsed url   path: 'through2@^0.6.1',
+235 verbose parsed url   href: 'through2@^0.6.1' }
+236 verbose cache add name="through2" spec="^0.6.1" args=["through2","^0.6.1"]
+237 verbose parsed url { protocol: null,
+237 verbose parsed url   slashes: null,
+237 verbose parsed url   auth: null,
+237 verbose parsed url   host: null,
+237 verbose parsed url   port: null,
+237 verbose parsed url   hostname: null,
+237 verbose parsed url   hash: null,
+237 verbose parsed url   search: null,
+237 verbose parsed url   query: null,
+237 verbose parsed url   pathname: '^0.6.1',
+237 verbose parsed url   path: '^0.6.1',
+237 verbose parsed url   href: '^0.6.1' }
+238 verbose addNamed [ 'through2', '^0.6.1' ]
+239 verbose addNamed [ null, '>=0.6.1-0 <0.7.0-0' ]
+240 silly lockFile ef970176-through2-0-6-1 through2@^0.6.1
+241 verbose lock through2@^0.6.1 /home/ubuntu/.npm/ef970176-through2-0-6-1.lock
+242 silly addNameRange { name: 'gifsicle', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+243 silly addNameRange { name: 'is-gif', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+244 verbose url raw gifsicle
+245 verbose url resolving [ 'https://registry.npmjs.org/', './gifsicle' ]
+246 verbose url resolved https://registry.npmjs.org/gifsicle
+247 info trying registry request attempt 1 at 12:58:30
+248 http GET https://registry.npmjs.org/gifsicle
+249 verbose url raw is-gif
+250 verbose url resolving [ 'https://registry.npmjs.org/', './is-gif' ]
+251 verbose url resolved https://registry.npmjs.org/is-gif
+252 info trying registry request attempt 1 at 12:58:30
+253 http GET https://registry.npmjs.org/is-gif
+254 silly addNameRange { name: 'through2', range: '>=0.6.1-0 <0.7.0-0', hasData: false }
+255 verbose url raw through2
+256 verbose url resolving [ 'https://registry.npmjs.org/', './through2' ]
+257 verbose url resolved https://registry.npmjs.org/through2
+258 info trying registry request attempt 1 at 12:58:30
+259 http GET https://registry.npmjs.org/through2
+260 error Refusing to delete: /home/ubuntu/csc428/test2/node_modules/.bin/imagemin not in /home/ubuntu/csc428/test2/node_modules/imagemin
+File exists: /home/ubuntu/csc428/test2/node_modules/.bin/imagemin
+Move it away, and try again.
+261 error System Linux 3.13.0-44-generic
+262 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "imagemin" "imagemin-gifsicle"
+263 error cwd /home/ubuntu/csc428/test2
+264 error node -v v0.10.25
+265 error npm -v 1.3.10
+266 error path /home/ubuntu/csc428/test2/node_modules/.bin/imagemin
+267 error code EEXIST
+268 verbose exit [ 1, true ]
